@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>General Trends</title>
+        <link rel="stylesheet" href="style_design.css">
+    </head>
+    <body>
+        <nav class = "navbar flex">
+            <h3>DATA 303 Final Project - Bakery Visualization</h3>
+            <div class="mr-auto"></div>
+            <div style="display: inline-block;margin-left: 50px;width: 175px;">
+                <a href="index.html">
+                    <h3>Return to Home</h3>
+                </a>
+            </div>
+        </nav>
+
+        <div id="clouds">
+            <div class="cloud x2"></div>
+            <div class="cloud x3"></div>
+            <div class="cloud x5"></div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="title">
+            <h1> General Sales Trends </h1>
+        </div>
+
+        <br>
+        <div class="test lights-off">
+            <div id="kawaii-tools-frame" class="frame-c">
+                <div class="flex-mid" style="height:100%;">
+                    <div class="kawaii-window kawaii-a" id="kawaii-window">
+                        <div class="kawaii-header">
+                            <div id="window-title" class="window-title" contenteditable="true"> 
+                                <h2>Raw Counts of Each Type of Item Offered </h2>
+                            </div>
+                        </div>
+
+                        <div class="d_vis">
+                            <img src="items_offered.png" title="" style="margin:auto;
+                            width:100%;"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kawaii-caption-frame" class="frame-g">
+                <p>This visualization shows a breakdown of the items sold by the bakery. 
+                    Each marker represents one item on the bakery's menu. 
+                    <br><br>
+                    Visually, we can see that most of the items offered are sweet pastries.
+                </p>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="test lights-off">
+            <div id="kawaii-tools-frame" class="frame-c">
+                <div class="flex-mid" style="height:100%;">
+                    <div class="kawaii-window kawaii-a" id="kawaii-window">
+                        <div class="kawaii-header">
+                            <div id="window-title" class="window-title" contenteditable="true"> 
+                                <h2>Daily Average Count of Bakery Goods Sold</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="d_vis">
+                            <iframe src="avg_sales_daily.html" title="" width="1000px" 
+                            height="830px" frameBorder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kawaii-caption-frame" class="frame-g">
+                <p> 
+                    This visualization shows the average count of goods sold every day. 
+                    It is clear that the most popular product sold is the "Angbutter," 
+                    a savory pastry consisting of butter and red bean paste in bread. 
+                    <br><br>
+                    Interstingly, during the entire span of the data collection, no 
+                    customers ordered "Mad Garlic" or "Croque Monsieur" for delivery. 
+                </p>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="test lights-off">
+            <div id="kawaii-tools-frame" class="frame-c">
+                <div class="flex-mid" style="height:100%;">
+                    <div class="kawaii-window kawaii-a" id="kawaii-window">
+                        <div class="kawaii-header">
+                            <div id="window-title" class="window-title" contenteditable="true"> 
+                                <h2>Weekly Average Count of Bakery Goods Sold</h2>
+                            </div>
+                        </div>
+
+                        <div class="d_vis">
+                            <iframe src="avg_sales_dow.html" title="" width="800px" 
+                            height="900px" frameBorder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kawaii-caption-frame" class="frame-g">
+                <p> This visualization shows the average count of goods sold by week day.
+                    We can see that sales are generally consistent during the week, though 
+                    there are noticably less on Tuesday. The reasoning behind this can be 
+                    found in the original Kaggle post, where the author states that the bakery
+                    is usually closed on Tuesdays. 
+                </p>
+            </div>
+        </div>
+        
+        <br><br><br><br><br>
