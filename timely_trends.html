@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timely Trends</title>
+        <link rel="stylesheet" href="style_design.css">
+    </head>
+    <body>
+        <nav class = "navbar flex">
+            <h3>DATA 303 Final Project - Bakery Visualization</h3>
+            <div class="mr-auto"></div>
+            <div style="display: inline-block;margin-left: 50px;width: 175px;">
+                <a href="index.html">
+                    <h3>Return to Home</h3>
+                </a>
+            </div>
+        </nav>
+
+        <div id="clouds">
+            <div class="cloud x2"></div>
+            <div class="cloud x3"></div>
+            <div class="cloud x5"></div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="title">
+            <h1> Bakery Trends Over Time </h1>
+        </div>
+
+
+        <br>
+        <div class="test lights-off">
+            <div id="kawaii-tools-frame" class="frame-c">
+                <div class="flex-mid" style="height:100%;">
+                    <div class="kawaii-window kawaii-a" id="kawaii-window">
+                        <div class="kawaii-header">
+                            <div id="window-title" class="window-title" contenteditable="true"> 
+                                <h2>Daily Delivery Sales: Split by Hour </h2>
+                            </div>
+                        </div>
+                        <div class="d_vis">
+                            <iframe src="bakery_by_hour.html" title="" width="800px" 
+                            height="850px" frameBorder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kawaii-caption-frame" class="frame-g">
+                <p> 
+                    This visualization displays every day of sales split by hour. 
+                    The scale on the x-axis goes from 10:00 to 18:00 (10 AM to 6 PM). 
+                    As these are delivery sales, it is possible for customers 
+                    to place orders outside of the bakery's opening hours. 
+                    <br><br>
+                    Notably, there were two orders during the entirety of the data 
+                    collection period that were placed after 18:00 (6 PM). The first was made
+                    on October 27, 2019 at 23:02 (11:02 PM) and was an order for seven Angbutter.
+                    The second was on February 19, 2020 as 22:13 (10:13 PM) and was an
+                    order for one Angbutter. 
+                </p>
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+        <div class="test lights-off">
+            <div id="kawaii-tools-frame" class="frame-c">
+                <div class="flex-mid" style="height:100%;">
+                    <div class="kawaii-window kawaii-a" id="kawaii-window">
+                        <div class="kawaii-header">
+                            <div id="window-title" class="window-title" contenteditable="true"> 
+                                <h2>Total Monthly Sales: Split by Day of Week </h2>
+                            </div>
+                        </div>
+
+                        <div class="d_vis">
+                            <iframe src="bakery_by_dow.html" title="" width="800px" 
+                            height="850px" frameBorder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kawaii-caption-frame" class="frame-g">
+                <p> 
+                    This visualization contains the monthly sales data split by day of week. 
+                    Here, we can clearly see that orders are seldom placed on Tuesday. The reason
+                    for this is that, according to the data's author, the bakery is usually closed
+                    on Tuesdays. 
+                    <br><br>
+                    It should also be noted that there are observably less sales in July 2019
+                    and May 2020. This is because the data collection period spanned from July 11, 2019
+                    to May 2, 2020, therefore the the end months did not have full month of data collection. 
+                </p>
+            </div>
+        </div>
+        <br><br><br><br><br>
